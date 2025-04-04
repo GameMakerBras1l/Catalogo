@@ -10,7 +10,7 @@
 
 :root {
     --orange: #f78b00;
-    --blue: 00285f;
+    --blue: #00285f;
     --gray: #ededed;
 }
 
@@ -42,4 +42,20 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.brand {
+    font-size: 24px;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
 }
