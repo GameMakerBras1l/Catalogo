@@ -206,3 +206,17 @@ section .card-item {
 .card-item h4 {
     width: 90%;
 }
+
+.card-item p {
+    width: 100%;
+    font-style: italic;
+    color: #00000070;
+}
+
+.card-item button {
+    width: 90%;
+    padding: 15px 0px;
+    border: none;
+    background: var(--blue);
+    border-radius: 4px;
+}
